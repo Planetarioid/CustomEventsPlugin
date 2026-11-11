@@ -1,0 +1,4 @@
+activity:
+  join-radius-chunks: 14
+  leave-radius-chunks: 14
+  death-radius-chunks: 14

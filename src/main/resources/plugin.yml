@@ -1,0 +1,38 @@
+name: CustomEventsPlugin
+version: '0.1.0-SNAPSHOT'
+main: com.untitled.eventplugin.CustomEventsPlugin
+api-version: '1.21.11'
+commands:
+  create:
+    usage: /create kit <kitname>
+  kit:
+    usage: /kit <list|give|update>
+  event:
+    usage: /event <create|manage|join|leave>
+  untitled:
+    usage: /untitled <give|chat>
+permissions:
+  customevents.kit.create:
+    default: op
+  customevents.kit.update:
+    default: op
+  customevents.kit.give:
+    default: op
+  customevents.event.create:
+    default: op
+  customevents.event.manage:
+    default: op
+  customevents.event.end:
+    default: op
+  customevents.event.configure:
+    default: op
+  customevents.event.teams:
+    default: op
+  customevents.event.kits:
+    default: op
+  customevents.event.border:
+    default: op
+  customevents.weapon.give:
+    default: op
+  customevents.chat.toggle:
+    default: op
